@@ -1,0 +1,40 @@
+{
+  "name": "skylar",
+  "version": "0.4.7",
+  "description": "A sarcastic teen who hasn't thought of a username yet.",
+  "main": "build/bundle.js",
+  "scripts": {
+    "test": "echo \"No tests\"",
+    "build": "./node_modules/.bin/rollup -c",
+    "start": "npm run build && node build/bundle.js"
+  },
+  "engines": {
+    "node": "6.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Falconerd/discord-bot-github.git"
+  },
+  "keywords": [
+    "Skylar",
+    "Hawkins",
+    "Sky"
+  ],
+  "author": "Momo Tsukinami",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/PeachyArtist/cuddly-entertainer/new/master"
+  },
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "discord.js": "^9.2.0",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.10",
+    "request": "^2.74.0",
+    "rollup": "^0.35.11"
+  },
+  "devDependencies": {
+    "rollup": "^0.35.11"
+  }
+}
